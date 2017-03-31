@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>学徒网</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/xuetu.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+</head>
+<body>
+	<!--头部导航开始-->
+	<div class="header">
+		
+		<div class="memu">
+			<div class="logo">
+				<a href="#">
+					<img src="img/xtonline.png" alt="学徒网" />
+				</a>
+			</div>
+			<div class="header-left">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">培训信息</a></li>
+					<li><a href="#">名师风采</a></li>
+					<li><a href="#">学院之星</a></li>
+					<li><a href="#">全部课程</a></li>
+					<li><a href="#">关于我们</a></li>
+				</ul>
+			</div>
+			<div class="header-right">
+				<input type="text" name=""  value="搜索" />
+				<hr />
+				<i class="icon iconfont icon-sousuo-sousuo"></i>
+				
+			</div>
+		</div>
+	</div>
+	<!--头部导航结束-->
+	
+	<!--主体开始-->
+	<div class="main">
+		<div class="swiper-container swiper-container-horizontal swiper-container-fade">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><a href=""><img src="img/3.jpg" /></a></div>
+		        <div class="swiper-slide"><img src="img/9.jpg" /></div>
+		        <div class="swiper-slide"><img src="img/3.jpg" /></div>
+		         <div class="swiper-slide"><img src="img/9.jpg" /></div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <div class="swiper-button-prev  swiper-button-white"></div>
+		    <div class="swiper-button-next  swiper-button-white"></div>
+		</div>
+	</div>
+	<!--主题结束-->
+	
+	<div class="banner">
+		<a href=""><img src="img/path_1.png" alt="" /></a>
+		<a href=""><img src="img/path_1.png" alt="" /></a>
+		<a href=""><img src="img/path_1.png" alt="" /></a>
+		<a href=""><img src="img/path_1.png" alt="" /></a>
+		<a href=""><img src="img/path_1.png" alt="" /></a>
+	</div>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/xuetu.js" type="text/javascript" charset="utf-8"></script>
+	<script>        
+		  var mySwiper = new Swiper ('.swiper-container', {
+		  	effect:'fade',
+		    autoplay:5000,
+		    loop:true,
+		    pagination: '.swiper-pagination',
+	        paginationClickable: true,
+	        nextButton: '.swiper-button-next',
+	        prevButton: '.swiper-button-prev',
+	        spaceBetween: 30
+		  })        
+  </script>
+</body>
+</html>
